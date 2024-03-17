@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Order request form
+    </title>
+</head>
+
+<body bgcolor="#FFF6E0">
+    <form>
+        <center>
+            <h1><font color="322653">Place your order!!</font></h1>
+            <hr>
+            <h4><font color="C51605">Personal details:</font></h4>
+            Name:
+            <input type="text" placeholder="First Name">
+        
+            <br>
+            <br>
+            E-Mail:
+            <input type="text" placeholder="@Email">
+            <br>
+            <br>
+            Mobile:
+            <input type="text" placeholder="eg.91*****54">
+            <br>
+            <br>
+            <h4><font color="C51605">Residantal details:</font></h4>
+            Address:
+            <input type="text" placeholder="Street name">
+            <br><br>
+            City:
+            <input type="text" placeholder="Your City">
+            <br><br>
+            State:
+            <select name="states">
+                <option value="States">none</option>
+                <option value="Andra pradesh">Andra pradesh</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Maharashta">Maharashta</option>
+                <option value="Uttar pradesh">Uttar pradesh</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select><br><br>
+            Pincode:
+            <input type="text" placeholder="Pincode">
+            <br>
+            <br>
+
+            No.of Books:
+            <select name="Books">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <br>
+            <h4><font color="C51605">Payment Methods:</font></h4>
+            <label for="111">
+                <input type="radio" value="Google Pay" name="pay" id="111">Google Pay<br>
+            </label>
+            <label for="222">
+                <input type="radio" value="Phone Pay" name="pay" id="222">Phone Pay<br>
+            </label>
+            <label for="333">
+                <input type="radio" value="Add new UPI ID" name="pay" id="333">Add new UPI ID<br>
+            </label>
+            <label for="00">
+                <input type="checkbox" value="Google Pay" name="pay" id="00">Cash on Delivery<br>
+            </label>
+            <br>
+            <textarea name="feedback" placeholder="Please give your valuable feedback..">Feedback</textarea>
+            <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </center>
+    </form>
+</body>
+
+</html>
